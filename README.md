@@ -1,0 +1,1 @@
+An replication from the portlistener app that you could commonly see on the app store. Currently only supports regular ports, does not support ip address or other port listening methods. Is a work in progress.
