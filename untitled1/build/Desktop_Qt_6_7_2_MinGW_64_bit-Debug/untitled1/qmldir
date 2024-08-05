@@ -1,0 +1,13 @@
+module untitled1
+typeinfo appuntitled1.qmltypes
+prefer :/untitled1/
+Main 1.0 Main.qml
+MySendPage 1.0 MySendPage.qml
+MyGraphPage 1.0 MyGraphPage.qml
+ComPlat 1.0 ComPlat.qml
+MyPrePage 1.0 MyPrePage.qml
+MyHelpPage 1.0 MyHelpPage.qml
+MyAboutPage 1.0 MyAboutPage.qml
+Tcps 1.0 Tcps.qml
+TcpcUdp 1.0 TcpcUdp.qml
+

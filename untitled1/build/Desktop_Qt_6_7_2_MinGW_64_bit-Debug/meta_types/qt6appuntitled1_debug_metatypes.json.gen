@@ -1,0 +1,350 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "PortController",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "getAllPorts",
+                        "returnType": "QStringList"
+                    },
+                    {
+                        "access": "public",
+                        "name": "openPort",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "closePort",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "read",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "input",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "write",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "updatePinOut",
+                        "returnType": "QList<bool>"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "baudRate",
+                        "notify": "baudRateChanged",
+                        "read": "getBaudRate",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setBaudRate"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 1,
+                        "name": "bitRate",
+                        "notify": "bitRateChanged",
+                        "read": "getBitRate",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setBitRate"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 2,
+                        "name": "comCount",
+                        "notify": "comCountChanged",
+                        "read": "getComCount",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setComCount"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 3,
+                        "name": "input",
+                        "notify": "inputChanged",
+                        "read": "getInput",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setInput"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 4,
+                        "name": "output",
+                        "notify": "outputChanged",
+                        "read": "getOutput",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setOutput"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 5,
+                        "name": "verify",
+                        "notify": "verifyChanged",
+                        "read": "getVerify",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setVerify"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 6,
+                        "name": "stopNum",
+                        "notify": "stopNumChanged",
+                        "read": "getStopNum",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setStopNum"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 7,
+                        "name": "hardwareStream",
+                        "notify": "hardwareStreamChanged",
+                        "read": "getHardwareStream",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setHardwareStream"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 8,
+                        "name": "dtr",
+                        "notify": "dtrChanged",
+                        "read": "getDtr",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setDtr"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 9,
+                        "name": "rts",
+                        "notify": "rtsChanged",
+                        "read": "getRts",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setRts"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 10,
+                        "name": "open",
+                        "notify": "openChanged",
+                        "read": "getOpen",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setOpen"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 11,
+                        "name": "error",
+                        "notify": "errorChanged",
+                        "read": "getError",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setError"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 12,
+                        "name": "index",
+                        "notify": "indexChanged",
+                        "read": "getIndex",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setIndex"
+                    }
+                ],
+                "qualifiedClassName": "PortController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "portSwitchError",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QByteArray"
+                            }
+                        ],
+                        "name": "readSig",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "baudRateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "bitRateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "comCountChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "inputChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "outputChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "verifyChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "stopNumChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "hardwareStreamChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "dtrChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "rtsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "openChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "errorChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "indexChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "name": "handleReadyRead",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "portcontroller.h",
+        "outputRevision": 68
+    }
+]
